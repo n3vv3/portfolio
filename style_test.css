@@ -1,0 +1,32 @@
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-block {
+  background-color: #B56357;
+}
+
+.navbar {
+  list-style-type: none;
+  float: right;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.navbar-li {
+  display: inline;
+}
+
+.navbar-text {
+  text-decoration: none;
+  color: #EAE3EA;
+  padding: 10px;
+  font-size: 20px;
+}
