@@ -89,7 +89,6 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 /* ux-student */
 
 .item3 {
-
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
