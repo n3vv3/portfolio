@@ -9,20 +9,18 @@ img {
 h1 {
   margin-left: 3%;
 }
+h4, p {
+  padding: 40px;
+}
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 0px;
 }
-@media (min-width: 50em) {
-  .container {
-    display: grid;
-  }
-}
 .hero-image {
   justify-content: flex-end;
   display: flex;
-  margin-bottom: -0.9%;
+  margin-bottom: -0.6%;
 }
 .hero-block {
   background-color: #B56357;
@@ -46,41 +44,41 @@ h1 {
 }
 @media (min-width: 50em) {
   .hero-text {
-  grid-auto-rows: min-content;
-  grid-row: span 2;
-  position: absolute;
-  background-color: #EAE3EA;
-  z-index: 2;
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 20px;
-  margin: 35% 20% 20% 35%;
+    grid-auto-rows: min-content;
+    grid-row: span 2;
+    position: absolute;
+    background-color: #EAE3EA;
+    z-index: 2;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 35% 20% 20% 35%;
   }
 }
-.content-box-one {
-  float: left;
-  background-color: #EAE3EA;
-  padding: 20px;
-  padding-bottom: 13.1%;
-  z-index: 2;
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  margin-bottom: 2%;
   color: #262626;
+  background-color: #EAE3EA;
   text-align: justify;
   text-justify: inter-word;
 }
-#img-two {
-  float: right;
+.content-one-text {
+  grid-column: 1;
 }
-.content-box-two {
-  float: right;
-  background-color: #EAE3EA;
-  padding: 20px;
-  z-index: 2;
-  color: #262626;
-  text-align: justify;
-  text-justify: inter-word;
+.content-one-image {
+  justify-content: flex-end;
+  display: flex;
+  grid-column: 2;
 }
-#img-three {
-  float: left;
+.content-two-text {
+  grid-column: 2;
+}
+.content-two-image {
+  justify-content: flex-end;
+  display: flex;
+  grid-column: 1;
 }
 .navbar {
   list-style-type: none;
